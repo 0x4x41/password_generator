@@ -7,7 +7,7 @@ setuptools.setup(
     url="https://github.com/0x4x41/password_generator",
     author="Mark Sercombe",
     packages=setuptools.find_packages(),
-    entry_points = {'console_scripts': ['pgen = pgen:main']},
+    entry_points = {'console_scripts': ['pgen = src.pgen:main']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
